@@ -57,6 +57,10 @@
       border:1px solid rgba(12,60,1,.10); background: #ffffff; color: var(--muted); }
     .pill .spark { width:8px; height:8px; border-radius:999px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: 0 0 12px rgba(16,185,129,.4); }
 
+    /* Avatar */
+    .avatar{ width:112px; height:112px; border-radius:999px; object-fit:cover; border:3px solid #ffffff; box-shadow: 0 8px 24px rgba(12,60,1,.18); display:block; margin-bottom:16px; background:#e8f3ed; }
+    @media (max-width: 480px){ .avatar{ width:88px; height:88px; } }
+
     h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.1; margin: 12px 0 10px; letter-spacing: -0.5px; color: var(--accent-2); }
     .lead { color: #2f3f35; font-size: clamp(16px, 1.4vw, 19px); line-height: 1.7; }
 
@@ -166,8 +170,8 @@
   <!-- Hero -->
   <header class="hero">
     <div class="container hero-grid">
-      <div>
-        <span class="pill"><span class="spark" aria-hidden="true"></span> Generative AI for Work & Research — Portfolio</span>
+      $1<img class="avatar" src="https://github.com/fiyin-odeyemi/graph-ai-portfolio/blob/main/IMG-20250705-WA0012.jpg?raw=1" alt="Portrait of Mofiyinfoluwa Odeyemi" loading="eager" />
+        $2><span class="spark" aria-hidden="true"></span> Generative AI for Work & Research — Portfolio</span>
         <h1>Blending Environmental Health & AI‑powered Research Workflows</h1>
         <p class="lead">I’m <strong>Mofiyinfoluwa Odeyemi</strong>, an environmental health advocate focused on water, waste and air quality. This portfolio captures my journey through an 8‑week hands‑on course where I apply no‑code AI tools to automate analysis, synthesize literature, and communicate evidence for real‑world impact.</p>
         <div class="cta-row">
